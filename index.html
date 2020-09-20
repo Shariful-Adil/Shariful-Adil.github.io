@@ -8,15 +8,16 @@
 <title> Loading... </title>
 <script>
 window.config = {
-  organization: false,
-  order: 'UPDATED_AT',
-  title: 'Mirror',
-  user: 'LoeiFy',
-  repository: 'Recordum',
-  authors: 'LoeiFy',
-  ignores: '17,13',
-  hash: '',
-  perpage: 5,
+  organization: false, // set true, if it is a organization repository issue, default false
+  order: 'UPDATED_AT', // order by create time or update time, 'UPDATED_AT' or 'CREATED_AT'
+  title: 'Mirror', // blog title
+  user: 'LoeiFy', // GitHub usename, required
+  repository: 'Recordum', // GitHub repository name, blog content issues, required
+  authors: 'LoeiFy,author1', // blog muti-authors, should be separated by ','. and the `user` is included in.
+  ignores: '17,13', // ignore issue IDs
+  host: '', // blog url hostname
+  hash: '', // required
+  perpage: 5, // pagination
 }
 </script>
 <style>
