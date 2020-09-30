@@ -48,7 +48,10 @@ if (ua.indexOf('MSIE') > -1 || ua.match(/Trident\/7\./)) {
   <div id="loader"><div></div></div>
 <script type="text/javascript" src="build.d294131d.js"></script></body>
   <script>
-  var date = new Date()
+    $( document ).ready(function() {
+      var date = new Date()
   document.getElementById("footer").innerHTML = `© ${date.getFullYear()} Shariful Islam Adil. Powered by <b>Mirror</b>`;
+});
+
 </script>
 </html>
